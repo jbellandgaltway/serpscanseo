@@ -1,0 +1,22 @@
+{
+  "addons": [
+    "serpscan"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "description": "",
+  "env": {
+    "SERPSCAN_API_KEY": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "serpscanseo",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
